@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8"/>
+    <title>Michał Kołodziejski - Projects</title>
+    <meta name="author" content="Michał Kołodziejski"/>
+    <link href="css/impress-demo.css" rel="stylesheet"/>
+</head>
+<body class="impress-not-supported"> 
+    <div class="fallback-message">
+        <p> Your browser <b> doesn't support impress.js </b>
+        <p> That is why you are presented with simplified version of the
+            presentation </p>
+    </div>
+    <div id="impress">
+        <div id="introduction" class="step slide" data-x="-1500" data-y="-1000">
+            <p> Using a simple library <b> impress.js </b> I will try to present
+                some of my projects, that I deem, are worth mentioning
+            </p>
+        </div>
+        <div id="start" class="step slide" data-x="0" data-y="-1000" data-rotate="90"> 
+            <p> All projects are stored <a href="https://github.com/mic4ael?tab=repositories"> here. </a> </p>
+            <p> So, without further ado, let's see what I can show you ;) </p>
+        </div>
+        <div id="beginning" class="step proj" data-x="0" data-y="1000" data-y="-500" data-scale="3">
+            <p class="header"> Producer-Consumer Problem </p>
+            <p class="lang"> <b> Lang used </b>: C++ </p>
+            <p class="content"> <b> Desc: </b>
+            Thanks to my engagement into the subject of Operating Systems,
+            my lecturer asked me, whether I wanted to write a program concerning
+            basic algorithm problem, so-called Producer-Consumer Problem.
+            That was my first, major attempt to write a program with GUI using
+            Win32 API.
+            </p>
+        </div>
+        <div class="step proj" data-x="0" data-y="1000" data-z="-2000">
+            <p class="header"> SQL Competition </p>
+            <p class="lang"><b> Lang used: </b> MSSQL </p>
+            <p class="content"> <b> Desc: </b>
+            Once, during my SQL lectures, the lecturer had put 
+            forward an offer for students. The goal was to solve a 
+            group of mathematic problems using only SQL. 
+            Not only have I learned a lot about SQL, 
+            but also was excused from the final exam.
+            </p>
+        </div>
+        <div class="step proj" data-x="0" data-y="2000" data-z="4000" data-rotate="180" data-scale="4">
+            <p class="header">Vigener'e Cipher</p>
+            <p class="lang"><b> Lang used: </b> JavaScript </p>
+            <p class="content"> <b> Desc: </b>
+                One of the simplest cryptographic ciphers is Vigener'e cipher.
+                In order to facilitate my friends encoding and decoding process,
+                I had written a small JS app which visualizes how the cipher works.
+                Wanna try it jump <a href="Vigenere/szyfrowanie.html"> here </a>.
+                No internet connection required.
+            </p>
+        </div>
+        <div class="step proj" data-x="0" data-y="7000" data-z="4000" data-rotate="180" data-scale="4">
+            <p class="header"> Pun-Game (so-called Kalambury) </p>
+            <p class="lang"><b> Lang used: </b> JAVA </p>
+            <p class="content"> <b> Desc: </b>
+                Once upon a time every programmer has a craving to write
+                a game. That is the situation I have got through as well.
+                I had writted a game that everyone can play with friends
+                over local network. Just setup a server and <b> draw! </b>
+                The goal of the game is to guess what another player draws.
+            </p>
+        </div>
+        <div class="step proj" data-x="0" data-y="10000" data-z="6000" data-rotate="180" data-scale="4">
+            <p class="header"> ECOL Project </p>
+            <p class="lang"><b> Lang used: </b> JAVA (Spring Framework) </p>
+            <p class="content"> <b> Desc: </b>
+                About 6 months ago, together with a friend I have created
+                a webapp which could help a small company to manage its
+                offer, by providing means to store products, customers,
+                generate invoices, etc.
+            </p>
+        </div>
+        <div class="step slide">
+            There is also one <strong> python </strong> script I had written
+            during a sleepless night. I learn english vocabulary by means of
+            Anki flashcards. However, checking word's translation and 
+            entering it into the program's database one by one can be
+            very tedious. That is why I had written a script which automates
+            this process. Simply, it sends a HTTP request to one of the
+            translation websites, and then analyses response in search of
+            HTML element which probably can hold the translation. Finally, it
+            writes all the definitions into a file in specific format.
+        </div>
+        <div class="step slide" data-x="4500" data-y="4500">
+            To be continued..
+        </div>
+        <div class="step slide" data-x="5000">
+            I mean there are more projects to be added in the near future ;)
+        </div>
+    </div> 
+
+    <script src="js/impress.js"></script>
+    <script> impress().init(); </script>
+</body>
+</html>

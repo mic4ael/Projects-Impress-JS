@@ -1,0 +1,41 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    background-color: #EEEEEE;
+}
+
+.container {
+    width: 800px;
+    height: 900px;
+    margin: 0 auto;
+}
+
+#canv {
+    width: 100%;
+    min-height: 38px;
+    margin-top: 10px;
+}
+
+#errors {
+    display: none;
+    width: 100%;
+    min-height: 60px;
+}
+
+tr , td {
+    border-top: 2px solid #835050;
+    border-bottom: 2px solid #835050;
+    max-height: 38px;
+}
+
+table {
+    border: 0px solid black !important;
+}
+
+.result {
+    background: rgb(100,100,100);
+}
+
+tr:first-child td {
+    border: 1px solid black !important;
+}

@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Szyfr Vigenère'a</title>
+        <meta charset="utf-8"/>
+        <link rel="stylesheet" href="bootstrap.css" type="text/css"/>
+        <link rel="stylesheet" href="style.css" type="text/css"/>
+        <script type="text/javascript" src="jquery-2.0.3.js"></script>
+    </head>
+    <body>
+        <div class="container">
+            <div class="page-header" style="border-bottom: 2px solid #DABFC1;">
+                <h1 align="center">Szyfr Vigenère'a</h1>
+            </div>
+            <p id="errors" class="alert alert-danger">
+            </p>
+            <ul class="nav nav-pills nav-justified">
+              <li class="active"><a href="szyfrowanie.html" onclick="setActive(this); encode();">Szyfrowanie</a></li>
+              <li><a href="#" onclick="setActive(this); decode();">Deszyfrowanie</a></li>
+            </ul>
+            </br>
+            <div id="tekstId" class="form-group has-success">
+                <label class="control-label" for="tekst">Tekst do zaszyfrowania: </label>
+                <input type="text" class="form-control" id="tekst">
+            </div>
+            <div id="kluczId" class="form-group has-success">
+                <label class="control-label" for="klucz">Klucz: </label>
+                <input type="text" class="form-control" id="klucz">
+            </div>
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="input-group  form-group has-success">
+                        <span class="input-group-btn">
+                            <button id="action" class="btn btn-default" type="button" onclick="run();">Szyfruj!</button>
+                        </span>
+                        <input type="text" id="cryptogram" class="form-control" disabled placeholder="Zaszyfrowany tekst">
+                    </div>
+                </div>
+            </div>
+            <table id="canv" class="table table-bordered table-striped">
+            </table>
+            </br>
+        </div>
+        <script type="text/javascript" src="main.js"></script>
+    </body>
+</html>
